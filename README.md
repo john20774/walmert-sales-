@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-![Project Pipeline](https://github.com/najirh/Walmart_SQL_Python/blob/main/walmart_project-piplelines.png)
+
 
 
 This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
@@ -14,14 +14,14 @@ This project is an end-to-end data analysis solution designed to extract critica
 ## Project Steps
 
 ### 1. Set Up the Environment
-   - **Tools Used**: Visual Studio Code (VS Code), Python, SQL (MySQL and PostgreSQL)
-   - **Goal**: Create a structured workspace within VS Code and organize project folders for smooth development and data handling.
+   - **Tools Used**:JUPYTER NOTEBOOK, Python, SQL (MySQL)
+   - **Goal**: Create a structured workspace within JUPYTER NOTEBOOK and organize project folders for smooth development and data handling.
 
 ### 2. Set Up Kaggle API
    - **API Setup**: Obtain your Kaggle API token from [Kaggle](https://www.kaggle.com/) by navigating to your profile settings and downloading the JSON file.
    - **Configure Kaggle**: 
       - Place the downloaded `kaggle.json` file in your local `.kaggle` folder.
-      - Use the command `kaggle datasets download -d <dataset-path>` to pull datasets directly into your project.
+      
 
 ### 3. Download Walmart Sales Data
    - **Data Source**: Use the Kaggle API to download the Walmart sales datasets from Kaggle.
@@ -31,7 +31,7 @@ This project is an end-to-end data analysis solution designed to extract critica
 ### 4. Install Required Libraries and Load Data
    - **Libraries**: Install necessary Python libraries using:
      ```bash
-     pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
+     pip install pandas numpy 
      ```
    - **Loading Data**: Read the data into a Pandas DataFrame for initial analysis and transformations.
 
@@ -51,8 +51,8 @@ This project is an end-to-end data analysis solution designed to extract critica
    - **Enhance Dataset**: Adding this calculated field will streamline further SQL analysis and aggregation tasks.
 
 ### 8. Load Data into MySQL and PostgreSQL
-   - **Set Up Connections**: Connect to MySQL and PostgreSQL using `sqlalchemy` and load the cleaned data into each database.
-   - **Table Creation**: Set up tables in both MySQL and PostgreSQL using Python SQLAlchemy to automate table creation and data insertion.
+   - **Set Up Connections**: Connect to MySQL  and load the cleaned data into each database.
+   - **Table Creation**: Set up tables in  MySQL  to automate table creation and data insertion.
    - **Verification**: Run initial SQL queries to confirm that the data has been loaded accurately.
 
 ### 9. SQL Analysis: Complex Queries and Business Problem Solving
@@ -77,9 +77,9 @@ This project is an end-to-end data analysis solution designed to extract critica
 ## Requirements
 
 - **Python 3.8+**
-- **SQL Databases**: MySQL, PostgreSQL
+- **SQL Databases**: MySQL
 - **Python Libraries**:
-  - `pandas`, `numpy`, `sqlalchemy`, `mysql-connector-python`, `psycopg2`
+  - `pandas`, `numpy`, 
 - **Kaggle API Key** (for data downloading)
 
 ## Getting Started
